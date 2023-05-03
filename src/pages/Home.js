@@ -1,5 +1,6 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { IconButton, Link } from '@material-ui/core';
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
@@ -11,9 +12,21 @@ function Home() {
         <h2> Hello, My Name is Noah</h2>
         <div className="prompt">
           <p>A software developer with a love for practical applicatioins.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <IconButton>
+            <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
+              <LinkedInIcon />
+            </Link>
+          </IconButton>
+          <IconButton>
+            <Link href="mailto:noahatkinson1.1@gmail.com">
+              <EmailIcon />
+            </Link>
+          </IconButton>
+          <IconButton>
+            <Link href="https://github.com/NoahJpg" target="_blank">
+              <GithubIcon />
+            </Link>
+          </IconButton>
         </div>
       </div>
       <div className="skills">
