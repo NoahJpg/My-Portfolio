@@ -9,20 +9,27 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hello, My Name is Noah</h2>
+        <section>
+          <div className="content">
+            <h2> Hello, My Name is Noah</h2>
+            <h2> Hello, My Name is Noah</h2>
+          </div>
+        </section>
         <div className="prompt">
-          <p>A software developer with a love for practical applicatioins.</p>
-          <IconButton>
+          <p className="homeDetails">A software developer with a love for practical applications.</p>
+          <IconButton className="homeDetails">
             <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
               <LinkedInIcon />
             </Link>
           </IconButton>
-          <IconButton>
+
+          <IconButton className="homeDetails">
             <Link href="mailto:noahatkinson1.1@gmail.com">
               <EmailIcon />
             </Link>
           </IconButton>
-          <IconButton>
+          
+          <IconButton className="homeDetails">
             <Link href="https://github.com/NoahJpg" target="_blank">
               <GithubIcon />
             </Link>
@@ -33,20 +40,20 @@ function Home() {
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
-            <span>
+            <h2 className="skillTitle"> Front-End</h2>
+            <span className="skillItems">
               ReactJS, HTML, CSS, NPM, BootStrap, Redux
             </span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
-            <span>
+            <h2 className="skillTitle">Back-End</h2>
+            <span  className="skillItems">
               NodeJS, .NET, MySQL, Firebase
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, C#, Python, C, TypeScript</span>
+            <h2 className="skillTitle">Languages</h2>
+            <span  className="skillItems">JavaScript, C#, Python, C, TypeScript</span>
           </li>
         </ol>
       </div>

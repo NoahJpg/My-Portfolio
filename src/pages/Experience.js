@@ -3,6 +3,7 @@ import  {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timelin
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School"
 import WorkIcon from "@material-ui/icons/Work"
+import "../styles/Experience.css"
 
 function Experience() {
   return (
@@ -10,7 +11,7 @@ function Experience() {
       <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement 
           className="vertical-timeline-element--education" 
-          date='January - June 2023'
+          date='Jan 2023 - Present'
           iconStyle={{background: "#e9d35b", color: "#fff"}}
           icon={<SchoolIcon />}
         >
@@ -35,7 +36,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Seattle, WA 
           </h4>
-          <p> thing i did here </p>
+          <p> Designed websites and merchandise for brands </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -50,7 +51,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Nocatee, FL 
           </h4>
-          <p> thing i did here </p>
+          <p> Directed and ran video studio, live broadcasts, product launches </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -65,7 +66,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Fleming Island, FL
           </h4>
-          <p> thing i did here </p>
+          <p> Edited Training videos - WordPress learning platform </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 

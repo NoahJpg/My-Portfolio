@@ -1,0 +1,37 @@
+.experience {
+  background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 10%, #75d4f1 45%, white 55%, #9571d9 90%, #a08dd1 100%);
+  color: #3e497a;
+}
+
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle,
+.vertical-timeline-element-content p {
+  color: #fff;
+}
+
+.vertical-timeline-element-icon {
+  background-color: #3598de;
+}
+
+.vertical-timeline-element-date {
+  color: #aaa;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-icon {
+  background: linear-gradient(to bottom right, #3598de, #a279bc);
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-date {
+  color: #40005a;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+  background: linear-gradient(to bottom right, #a296aa, #3598de);
+  border-color: #a279bc;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content h3,
+.vertical-timeline-element--education .vertical-timeline-element-content h4,
+.vertical-timeline-element--education .vertical-timeline-element-content p {
+  color: #fff;
+}

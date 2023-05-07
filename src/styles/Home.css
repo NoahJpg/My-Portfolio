@@ -5,33 +5,123 @@
   color: #3e497a;
 }
 
+.skillTitle {
+  background: linear-gradient(to bottom right, #3598de, #a279bc);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skillItems {
+  background: linear-gradient(to bottom right, #a279bc, #3598de);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .about {
-  width: 100%;
+  font-size: .8rem;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
-  color: #f0f0f0;
+  background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 10%, #75d4f1 45%, white 55%, #9571d9 90%, #a08dd1 100%);
 }
 
-.about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
-  color: #e9d35b;
-  height: 50px;
+.homeDetails {
+  margin-top: -200px;
+  font-size: x-large;
+  margin-bottom: 5px;
 }
+
+
+/* fancy home title animation */
+
+.about h2 {
+  white-space: nowrap;
+}
+
+section {
+  background: #000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+  border-bottom: 0px;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 5em;
+  position: absolute;
+  transform: translate(-50%, -50%);}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.prompt {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projectItem a {
+  margin-top: 10px;
+}
+
 
 .about .prompt {
   width: 40%;
   font-size: 30px;
+  color: rgb(110, 107, 206);
 }
 .prompt svg {
   font-size: 60px;
   margin: 5px;
-  color: white;
+  color: rgb(110, 107, 206);
 }
 
 .skills {
@@ -41,6 +131,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .skills h1 {
@@ -76,5 +167,38 @@
 
   .skills h2 {
     font-size: 30px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 2rem; /* or any other value that looks good */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav button {
+    margin-top: 1rem;
   }
 }
