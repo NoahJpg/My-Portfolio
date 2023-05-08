@@ -42,18 +42,22 @@ function Home() {
           <li className="item">
             <h2 className="skillTitle"> Front-End</h2>
             <span className="skillItems">
-              ReactJS, HTML, CSS, NPM, BootStrap, Redux
+              ReactJS, HTML, CSS, BootStrap
             </span>
           </li>
           <li className="item">
             <h2 className="skillTitle">Back-End</h2>
             <span  className="skillItems">
-              NodeJS, .NET, MySQL, Firebase
+              NodeJS, .NET 6, MySQL, Firebase, Express, Entity Framework Core 6, APIs
             </span>
           </li>
           <li className="item">
             <h2 className="skillTitle">Languages</h2>
             <span  className="skillItems">JavaScript, C#</span>
+          </li>
+          <li className="item">
+            <h2 className="skillTitle">Tools</h2>
+            <span  className="skillItems">VS Code/Visual Studio, NPM, Git, Unity, SQL Workbench, Eslint, Jest </span>
           </li>
         </ol>
       </div>
