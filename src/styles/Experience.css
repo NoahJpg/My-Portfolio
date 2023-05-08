@@ -1,6 +1,5 @@
 .experience {
-  background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 10%, #75d4f1 45%, white 55%, #9571d9 90%, #a08dd1 100%);
-  color: #3e497a;
+  background-color: rgb(255, 255, 255);
 }
 
 .vertical-timeline-element-title,
@@ -18,7 +17,7 @@
 }
 
 .vertical-timeline-element--education .vertical-timeline-element-icon {
-  background: linear-gradient(to bottom right, #3598de, #a279bc);
+   background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 10%, #75d4f1 45%, rgb(255, 255, 255) 55%, #9571d9 90%, #a08dd1 100%);
 }
 
 .vertical-timeline-element--education .vertical-timeline-element-date {
@@ -26,7 +25,7 @@
 }
 
 .vertical-timeline-element--education .vertical-timeline-element-content {
-  background: linear-gradient(to bottom right, #a296aa, #3598de);
+   background: linear-gradient(to top right,#7585f1 45%, #9571d9 85%, #a08dd1 100%);
   border-color: #a279bc;
 }
 

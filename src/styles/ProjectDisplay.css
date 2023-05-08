@@ -28,11 +28,17 @@
 .project img {
   border-radius: 10px;
   margin: 0 5px;
-  max-width: 40%;
- height: 200px;
- object-fit: cover;
- display: block;
- margin: auto;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  width: 100%;
+  transition: transform 0.3s ease-out;
+}
+
+.project img:hover {
+  transform: scale(1.05);
 }
 
 .project p {

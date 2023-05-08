@@ -11,12 +11,14 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} />
+      <a href={project.projLink} target="_blank" rel="noreferrer" >
+        <img src={project.image} alt={project.name} />
+      </a>
       <p>
         <b>Skills:</b> {project.skills}
       </p>
       <IconButton>
-          <Link href={project.link} target="_blank">
+          <Link href={project.ghLink} target="_blank">
             <GithubIcon />
           </Link>
         </IconButton>
