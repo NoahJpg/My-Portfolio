@@ -53,7 +53,7 @@ function Home() {
           </li>
           <li className="item">
             <h2 className="skillTitle">Languages</h2>
-            <span  className="skillItems">JavaScript, C#, Python, C, TypeScript</span>
+            <span  className="skillItems">JavaScript, C#</span>
           </li>
         </ol>
       </div>
