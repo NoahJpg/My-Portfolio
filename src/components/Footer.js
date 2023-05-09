@@ -8,7 +8,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="socialMedia">
+      <div className="socialMedia" id="socialMedia">
       <IconButton>
         <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
           <LinkedInIcon />
