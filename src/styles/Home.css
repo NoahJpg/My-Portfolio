@@ -72,7 +72,7 @@ section {
 }
 
 .content h2:nth-child(2) {
-  background: linear-gradient(to bottom right, #a279bc, #3598de);
+  background: linear-gradient(to bottom left, #a788e5, #0798ff);
   background-clip: padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -189,7 +189,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  padding: 0 2rem; /* or any other value that looks good */
+  padding: 0 2rem;
 }
 
 nav ul {
