@@ -1,6 +1,6 @@
 <h1 align="center">My Portfolio</h1>
 <h3 align="center">
-  By: Noah Atkinson 
+  🎨 By: Noah Atkinson 
 </h3>
 
   <p align="center">
@@ -9,7 +9,7 @@
   </p>
   
   <p align="center">
-   <a href="https://noah-atkinson.vercel.app/">🏃 Checkout the Site 💻</a>
+   <a href="https://noah-atkinson.vercel.app/">🏃 Run the Site 💻</a>
     <br><br>
     <a href="#description">📝 Description 📚</a>
     <br>
@@ -26,29 +26,24 @@
 
 
 ## Description
-#### _My Personal porfolio built with react and css_
+#### _My Personal Porfolio!_
 
 ## Run It Here
 
-  [Live project](Google.com)
-
-## Features
-
-* __
-
+  [Live project](https://noah-atkinson.vercel.app/)
 
 ## Technologies Used
 
 * _React_
+* _NPM_
 * _React-DOM_
 * _React-Router-DOM_
-* _Material-UI_
-* _react-vertical-timeline-component_
+* _Material-UI Core_
+* _Material-UI Icons_
+* _React Testing Library_
+* _React-vertical-timeline-component_
 * _Jest_
-* _Babel_
 * _Eslint_
-* _Webpack_
-* _NPM_
 
 ## Setup and Installation Requirements
 
