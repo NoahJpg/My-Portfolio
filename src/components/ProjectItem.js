@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function ProjectItem({ image, name, subName, id, link }) {
-  console.log("subName:", subName);
   const navigate = useNavigate();
   return (
     <div

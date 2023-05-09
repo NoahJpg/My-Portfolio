@@ -21,7 +21,6 @@
 
 .about {
   font-size: 1.2rem;
-  /* height: calc(100vh - 100px); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,15 +62,20 @@ section {
   color: #fff;
   font-size: 5em;
   position: absolute;
-  transform: translate(-50%, -150%);}
+  transform: translate(-50%, -150%);
+}
+
 
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 2px #03a9f4;
+  -webkit-text-stroke: 2px #00aeff;
 }
 
 .content h2:nth-child(2) {
-  color: #03a9f4;
+  background: linear-gradient(to bottom right, #a279bc, #3598de);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   animation: animate 4s ease-in-out infinite;
 }
 
@@ -169,6 +173,14 @@ section {
 
   .skills h2 {
     font-size: 30px;
+  }
+
+  .content h2 {
+    font-size: 37px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transform: translate(-50%, -50%);
+    top: 50%;
   }
 }
 

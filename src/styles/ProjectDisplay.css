@@ -5,11 +5,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 600px) {
   .project {
     flex-direction: column;
+    padding-top: 50vw;
+    padding-bottom: 40vw;
   }
 
   .project img {
@@ -18,6 +22,8 @@
     height: auto;
   }
 }
+
+
 
 .project h1 {
   margin-top: 50px;
@@ -67,3 +73,12 @@
   margin-right: 200px;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  .aboutSection {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+}
+
