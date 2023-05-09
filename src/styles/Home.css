@@ -20,8 +20,8 @@
 }
 
 .about {
-  font-size: .8rem;
-  height: calc(100vh - 100px);
+  font-size: 1.2rem;
+  /* height: calc(100vh - 100px); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@
 
 .homeDetails {
   margin-top: -200px;
-  font-size: x-large;
+  font-size: 2rem;
   margin-bottom: 5px;
   padding-top: 20px;
 }
@@ -60,11 +60,10 @@ section {
 .content h2 {
   margin-top: 0;
   padding-top: 0px;
-  
   color: #fff;
   font-size: 5em;
   position: absolute;
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -150%);}
 
 .content h2:nth-child(1) {
   color: transparent;
@@ -115,7 +114,6 @@ section {
 .projectItem a {
   margin-top: 10px;
 }
-
 
 .about .prompt {
   width: 40%;

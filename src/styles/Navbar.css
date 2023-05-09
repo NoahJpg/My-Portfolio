@@ -77,7 +77,7 @@
     display: flex;
   }
   #close a {
-    display: none;
+    display: block;
     color: black
   }
   .linkItem {
@@ -101,5 +101,9 @@
   #open .links {
     flex-direction: row;
   }
+}
+
+.MuiSvgIcon-root {
+  color: rgb(90, 181, 250);
 }
 
