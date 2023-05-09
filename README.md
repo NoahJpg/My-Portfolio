@@ -2,7 +2,14 @@
 <h3 align="center">
   🎨 By: Noah Atkinson 
 </h3>
-
+  <p align="center">
+    <div style="text-align:center;">
+    <img src="src/assets/ProjScreenshot.png" 
+         alt="map-screenshot" 
+         style="display:inline-block; margin:0 auto; max-width:90%; width:max; height: auto; text-align: center;"
+    />
+</div>
+  </p>
   <p align="center">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" />
