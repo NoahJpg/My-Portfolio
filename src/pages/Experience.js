@@ -9,8 +9,9 @@ function Experience() {
   return (
     <div className='experience'>
       <VerticalTimeline lineColor='#c0bbf3'>
+        
         <VerticalTimelineElement 
-          className="vertical-timeline-element--education" 
+          className="vertical-timeline-element--education"
           date='Jan 2023 - Present'
           iconStyle={{background: "#4e51b8", color: "#fff"}}
           icon={<SchoolIcon />}
@@ -19,7 +20,7 @@ function Experience() {
             Software Development Bootcamp, Epicodus
           </h3>
           <h4 className='vertical-timeline-element-subtitle'> 
-            Remote/Seattle, WA
+            Remote / Seattle, WA
           </h4>
           <p> Web Development Certificate  </p>
         </VerticalTimelineElement>
@@ -36,7 +37,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Seattle, WA 
           </h4>
-          <p> Designed websites and merchandise for brands </p>
+          <p> Designed Websites and Merchandise For Niche Brands </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -51,7 +52,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Nocatee, FL 
           </h4>
-          <p> Directed and ran video studio, live broadcasts, product launches </p>
+          <p> Directed Video Studio, Live Broadcasts, Product Launches </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -66,24 +67,22 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Fleming Island, FL
           </h4>
-          <p> Edited Training videos - WordPress learning platform </p>
+          <p> Edit Training Videos for WordPress Learning Platform </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
           className="vertical-timeline-element--education" 
-          date='2012 - 2016'
           iconStyle={{background: "#4e51b8", color: "#fff"}}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
-            Middleburg High School 
+            St. Johns River State College
           </h3>
           <h4 className='vertical-timeline-element-subtitle'> 
-            Middleburg, Florida
+            Orange Park, FL
           </h4>
-          <p> High School Diploma </p>
+          <p> Information Technology </p>
         </VerticalTimelineElement>
-
       </VerticalTimeline>
     </div>
   )
