@@ -9,7 +9,7 @@
   </p>
   
   <p align="center">
-   <a href="google.com">🏃 Checkout the Site 💻</a>
+   <a href="https://noah-atkinson.vercel.app/">🏃 Checkout the Site 💻</a>
     <br><br>
     <a href="#description">📝 Description 📚</a>
     <br>
@@ -52,9 +52,10 @@
 
 ## Setup and Installation Requirements
 
-  [Live project here](https://livable-app.vercel.app/)
+  [Live project here](https://noah-atkinson.vercel.app/)
 
-* _TBD_
+* _Clone Project_
+* _```npm install --force```_
 
 ## Known Bugs
 
