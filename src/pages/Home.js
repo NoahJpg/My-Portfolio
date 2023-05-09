@@ -16,7 +16,7 @@ function Home() {
           </div>
         </section>
         <div className="prompt">
-          <p className="homeDetails">A software developer with a love for practical applications.</p>
+          <p className="homeDetails">A Full-Stack developer with a love for technology that makes life simpler.</p>
           <IconButton className="homeDetails">
             <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
               <LinkedInIcon />

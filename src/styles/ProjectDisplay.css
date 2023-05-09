@@ -42,11 +42,28 @@
 }
 
 .project p {
-  font-size: 40px;
-  color: #3e497a;
+  text-align: center;
+  background: linear-gradient(to bottom right, #a279bc, #3598de);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .project svg {
   font-size: 60px;
-  color: #3e497a;
+  background: linear-gradient(to bottom right, #a279bc, #3598de);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skillsSection {
+  font-size: 30px;
+}
+
+.aboutSection {
+  font-size: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
 }

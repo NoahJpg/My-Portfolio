@@ -25,7 +25,15 @@
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
+  color: black;
+  transition: transform 0.2s ease-out;
 }
+
+.navbar a:hover {
+  transform: translateY(-5px);
+}
+
+
 
 .toggleButton {
   width: 100%;
@@ -77,11 +85,11 @@
     display: flex;
   }
   #close a {
-    display: block;
+    display: none;
     color: black
   }
   .linkItem {
-    font-size: 6vwpx;
+    font-size: 6vw;
   }
 }
 
