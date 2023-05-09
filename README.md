@@ -1,15 +1,6 @@
 <h1 align="center">My Portfolio</h1>
-  <p align="center">
-    <div style="text-align:center;">
-    <img src="src/img/Map-Screenshot-3.png" 
-         alt="map-screenshot" 
-         style="display:inline-block; margin:0 auto; max-width:100%; width:max; height: auto; text-align: center;"
-    />
-</div>
-
-  </p>
 <h3 align="center">
-  Noah Atkinson 
+  By: Noah Atkinson 
 </h3>
 
   <p align="center">
@@ -35,7 +26,7 @@
 
 
 ## Description
-#### _A web app with mobile friendly features that show my experience, my personal projects, and links to all the sites._
+#### _My Personal porfolio built with react and css_
 
 ## Run It Here
 
