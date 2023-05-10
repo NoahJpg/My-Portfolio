@@ -3,6 +3,7 @@ import { IconButton, Link } from '@material-ui/core';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -26,6 +27,12 @@ function Footer() {
           <GithubIcon />
         </Link>
       </IconButton>
+
+      <IconButton>
+          <Link href="/NoahAtkinsonResume.pdf" download>
+            <CloudDownloadIcon />
+          </Link>
+        </IconButton>
       </div>
       <p> &copy; 2023 Noah Atkinson</p>
     </div>
