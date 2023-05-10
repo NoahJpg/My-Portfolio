@@ -20,7 +20,7 @@ export const ProjectList = [
     subName: "A 2D Platformer",
     image: Proj3,
     skills: "Unity, C#, Animations",
-    about: "A 2D platforming game made using Unity and C# - with a Castlevania style. All animations and character collisions implemented by me.",
+    about: "A 2D platforming game made created with Unity and C#. Made during 'Team Week' at Epicodus Bootcamp with 4 other students in less than 4 days. All character and boss animations and collisions were handled by me.",
     ghLink: "https://github.com/NoahJpg/Burning-Oil.git",
     projLink: "https://play.unity.com/mg/other/webgl-builds-338664"
 
