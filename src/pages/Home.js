@@ -4,7 +4,6 @@ import { IconButton, Link } from '@material-ui/core';
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import { Card, CardContent, Typography } from "@material-ui/core";
-import CodeIcon from "@material-ui/icons/Code";
 import Links from "../helpers/IconList";
 import "../styles/Home.css";
 

@@ -10,28 +10,30 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia" id="socialMedia">
-      <IconButton>
-        <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
-          <LinkedInIcon />
-        </Link>
-      </IconButton>
+        <IconButton>
+          <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
+            <LinkedInIcon />
+          </Link>
+        </IconButton>
 
-      <IconButton>
-        <Link href="mailto:noahatkinson1.1@gmail.com">
-          <EmailIcon />
-        </Link>
-      </IconButton>
+        <IconButton>
+          <Link href="mailto:noahatkinson1.1@gmail.com">
+            <EmailIcon />
+          </Link>
+        </IconButton>
 
-      <IconButton>
-        <Link href="https://github.com/NoahJpg" target="_blank">
-          <GithubIcon />
-        </Link>
-      </IconButton>
+        <IconButton>
+          <Link href="https://github.com/NoahJpg" target="_blank">
+            <GithubIcon />
+          </Link>
+        </IconButton>
 
-      <IconButton>
+
+        <IconButton className="downloadButton">
+          <p className="resumeText">Download Resume</p>
           <Link href="/NoahAtkinsonResume.pdf" download>
             <CloudDownloadIcon />
-          </Link>
+          </Link> 
         </IconButton>
       </div>
       <p> &copy; 2023 Noah Atkinson</p>
