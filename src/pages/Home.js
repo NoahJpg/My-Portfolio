@@ -3,6 +3,9 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { IconButton, Link } from '@material-ui/core';
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import { Card, CardContent, Typography } from "@material-ui/core";
+import CodeIcon from "@material-ui/icons/Code";
+import Links from "../helpers/IconList";
 import "../styles/Home.css";
 
 function Home() {
@@ -36,30 +39,57 @@ function Home() {
           </IconButton>
         </div>
       </div>
+
       <div className="skills" id="skills">
         <h1> Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2 className="skillTitle"> Front-End</h2>
-            <span className="skillItems">
-              ReactJS, HTML, CSS, BootStrap
-            </span>
-          </li>
-          <li className="item">
-            <h2 className="skillTitle">Back-End</h2>
-            <span  className="skillItems">
-              NodeJS, .NET 6, MySQL, Firebase, Express, Entity Framework Core 6, APIs
-            </span>
-          </li>
-          <li className="item">
-            <h2 className="skillTitle">Languages</h2>
-            <span  className="skillItems">JavaScript, C#</span>
-          </li>
-          <li className="item">
-            <h2 className="skillTitle">Tools</h2>
-            <span  className="skillItems">VS Code/Visual Studio, NPM, Git, Unity, SQL Workbench, Eslint, Jest </span>
-          </li>
-        </ol>
+        <div className="cardContainer">
+
+          <Card className="card">
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Front-End:
+              </Typography>
+              <Typography color="textSecondary" gutterBottom>
+              </Typography>
+              <Links category="front-end" />
+            </CardContent>
+          </Card>
+
+          <Card className="card">
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Back-End:
+              </Typography>
+              <Typography color="textSecondary" gutterBottom>
+              APIs
+              </Typography>
+              <Links category="back-end" />
+            </CardContent>
+          </Card>
+
+          <Card className="card">
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Languages:
+              </Typography>
+              <Typography color="textSecondary" gutterBottom>
+              </Typography>
+              <Links category="language" />
+            </CardContent>
+          </Card>
+
+          <Card className="card">
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Tools:
+              </Typography>
+              <Typography color="textSecondary" gutterBottom>
+              </Typography>
+              <Links category="tool" />
+            </CardContent>
+          </Card>
+
+        </div>
       </div>
     </div>
   );

@@ -123,11 +123,13 @@ section {
   width: 40%;
   font-size: 30px;
   color: rgb(110, 107, 206);
+  margin-bottom: 30px;
 }
 .prompt svg {
   font-size: 60px;
   margin: 5px;
   color: rgb(110, 107, 206);
+  margin-top: auto;
 }
 
 .skills {
@@ -137,19 +139,48 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
- 
 }
 
-.skills h1 {
-  color: #3e497a;
+.skills h2 {
+  color: #ffffff;
+} 
+
+.skills p {
+  color: #f3edfe;
 }
 
-.skills .list {
+.list {
   list-style: none;
   width: 60%;
 }
 
 .list span {
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to top left, #6792d3, #a279bc);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card h2.skillTitle {
+  color: #576ed6;
+  margin-bottom: 10px;
+}
+
+.card .skillItems {
   font-size: 20px;
 }
 
@@ -167,6 +198,7 @@ section {
   .skills {
     text-align: center;
   }
+
   .list {
     padding: 0;
   }
@@ -182,7 +214,13 @@ section {
     transform: translate(-50%, -50%);
     top: 50%;
   }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
 }
+
 
 nav {
   display: flex;
