@@ -112,7 +112,7 @@ export default function Links({ category }) {
     <div>
       {filteredLinks.map((link) => (
         <a href={link.url} target="_blank" rel="noreferrer">
-          <img src={link.imgSrc} alt={link.alt} width="40" height="40" />
+          <img src={link.imgSrc} alt={link.alt} width="55" height="55" />
         </a>
       ))}
     </div>
