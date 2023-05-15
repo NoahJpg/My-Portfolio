@@ -6,6 +6,7 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import { Card, CardContent, Typography } from "@material-ui/core";
 import Links from "../helpers/IconList";
 import "../styles/Home.css";
+import "../styles/AboutMe.css"
 
 function Home() {
   return (
@@ -38,6 +39,17 @@ function Home() {
           </IconButton>
         </div>
       </div>
+{/* 
+      <div className="aboutMeContent">
+        <section className="aboutSection">
+          <h2>About Me</h2>
+          <h2>About Me</h2>
+          <p className="aboutMeText">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu ligula nec risus porttitor aliquet.
+            Maecenas id fringilla nisi. Nunc ac malesuada odio. Sed interdum varius magna, id congue lectus mollis eu.
+            Quisque iaculis libero non mauris condimentum rutrum.
+          </p>
+        </section>
+      </div> */}
 
       <div className="skills" id="skills">
         <h1> Skills</h1>

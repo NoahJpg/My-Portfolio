@@ -132,7 +132,8 @@ section {
   font-size: 60px;
   margin: 5px;
   color: rgb(110, 107, 206);
-  margin-top: auto;
+  margin-top: 100%;
+  margin-bottom: 100%;
 }
 
 .skills {
@@ -273,3 +274,4 @@ nav li {
     margin-top: 1rem;
   }
 }
+
