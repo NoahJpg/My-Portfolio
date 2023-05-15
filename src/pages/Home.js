@@ -21,7 +21,7 @@ function Home() {
           <p className="homeDetails">A Full-Stack developer with a love for technology that makes life simpler.</p>
           <IconButton className="homeDetails">
             <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
-              <LinkedInIcon />
+              <LinkedInIcon className="iconButton" />
             </Link>
           </IconButton>
 

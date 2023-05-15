@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/IconList.css"
 
 
 const links = [
@@ -111,7 +112,7 @@ export default function Links({ category }) {
   return (
     <div>
       {filteredLinks.map((link) => (
-        <a href={link.url} target="_blank" rel="noreferrer">
+        <a href={link.url} target="_blank" rel="noreferrer" className="link-wrapper">
           <img src={link.imgSrc} alt={link.alt} width="55" height="55" />
         </a>
       ))}
