@@ -40,9 +40,9 @@ function Navbar() {
         ): (
           <a href="/" className="linkItem"> Home </a>
         )}
+        <a href="/#skills" className="linkItem" onClick={scrollToSkills}> Skills </a>
         <Link to="/projects" className="linkItem"> Projects </Link>
         <Link to="/experience" className="linkItem"> Experience </Link>
-        <a href="/#skills" className="linkItem" onClick={scrollToSkills}> Skills </a>
         <a href="#socialMedia" className="linkItem"> Contact </a>
       </div>
     </div>

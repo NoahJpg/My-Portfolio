@@ -22,7 +22,10 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Remote / Seattle, WA
           </h4>
-          <p> Web Development Certificate  </p>
+          <p> - Over 800 hours (27 weeks) of Front End/Back End web development.  </p>
+          <p> - Developed over 60 useful applications with C#/.Net, SQL, Javascript, React, and various tools. </p>
+          <p> - Cultivated communication and team skills through group projects and daily pair programming.  </p>
+          <p> - Weekly code reviews, test driven development, implementing best practices.  </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -37,7 +40,8 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Seattle, WA 
           </h4>
-          <p> Designed Websites and Merchandise For Niche Brands </p>
+          <p> - Website design and merchandise site operation linking Shopify with Squarespace and Printful. </p>
+          <p> - Budget management, marketing, business development, problem-solving. </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -52,7 +56,10 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Nocatee, FL 
           </h4>
-          <p> Directed Video Studio, Live Broadcasts, Product Launches </p>
+          <p> - Lead studios in high-level productions with multiple actors and crew. </p>
+          <p> - Consulted with various brands to achieve the desired vision for launch of a new product. </p>
+          <p> - Worked with developers to create an algorithmic stock trading system using AmiBroker Formula Language. </p>
+          <p> - Managed and monitored social media accounts, implemented operation changes to increase CTR. </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -67,11 +74,13 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Fleming Island, FL
           </h4>
-          <p> Edit Training Videos for WordPress Learning Platform </p>
+          <p> - Edited and organized data engineering training videos for the learning platform. </p>
+          <p> - Communicated with Fortune 500 leaders to manage their team’s WordPress accounts. </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
-          className="vertical-timeline-element--education" 
+          className="vertical-timeline-element--education"
+          date='2017' 
           iconStyle={{background: "#4e51b8", color: "#fff"}}
           icon={<SchoolIcon />}
         >
@@ -81,7 +90,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'> 
             Orange Park, FL
           </h4>
-          <p> Information Technology </p>
+          <p> - Studied Computers and Information Technology </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
