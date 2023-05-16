@@ -57,12 +57,12 @@ const links = [
     alt: "jest",
     category: "tool"
   },
-  {
-    url: "https://www.mongodb.com/",
-    imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-    alt: "mongodb",
-    category: "back-end"
-  },
+  // {
+  //   url: "https://www.mongodb.com/",
+  //   imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+  //   alt: "mongodb",
+  //   category: "back-end"
+  // },
   {
     url: "https://www.mysql.com/",
     imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
