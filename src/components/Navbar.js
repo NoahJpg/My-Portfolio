@@ -3,7 +3,6 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
 
-
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -16,13 +15,13 @@ function Navbar() {
 
   function scrollToSkills(event) {
     event.preventDefault();
-    navigate('/');
+    navigate("/");
     setTimeout(() => {
       const skillsSection = document.getElementById("skills");
       skillsSection.scrollIntoView({ behavior: "smooth" });
     }, 200);
   }
-  
+
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
@@ -36,14 +35,32 @@ function Navbar() {
       </div>
       <div className="links">
         {location.pathname === "/" ? (
-          <Link to="/" className="linkItem"> Home </Link>
-        ): (
-          <a href="/" className="linkItem"> Home </a>
+          <Link to="/" className="linkItem">
+            {" "}
+            Home{" "}
+          </Link>
+        ) : (
+          <a href="/" className="linkItem">
+            {" "}
+            Home{" "}
+          </a>
         )}
-        <a href="/#skills" className="linkItem" onClick={scrollToSkills}> Skills </a>
-        <Link to="/projects" className="linkItem"> Projects </Link>
-        <Link to="/experience" className="linkItem"> Experience </Link>
-        <a href="#socialMedia" className="linkItem"> Contact </a>
+        <a href="/#skills" className="linkItem" onClick={scrollToSkills}>
+          {" "}
+          Skills{" "}
+        </a>
+        <Link to="/projects" className="linkItem">
+          {" "}
+          Projects{" "}
+        </Link>
+        <Link to="/experience" className="linkItem">
+          {" "}
+          Experience{" "}
+        </Link>
+        <a href="#socialMedia" className="linkItem">
+          {" "}
+          Contact{" "}
+        </a>
       </div>
     </div>
   );

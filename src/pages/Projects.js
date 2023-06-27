@@ -10,12 +10,12 @@ function Projects() {
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem 
-              key={idx} 
-              id={idx} 
-              name={project.name} 
+            <ProjectItem
+              key={idx}
+              id={idx}
+              name={project.name}
               subName={project.subName}
-              image={project.image} 
+              image={project.image}
             />
           );
         })}

@@ -1,12 +1,12 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { IconButton, Link } from '@material-ui/core';
+import { IconButton, Link } from "@material-ui/core";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import { Card, CardContent, Typography } from "@material-ui/core";
 import Links from "../helpers/IconList";
 import "../styles/Home.css";
-import "../styles/AboutMe.css"
+import "../styles/AboutMe.css";
 
 function Home() {
   return (
@@ -19,9 +19,15 @@ function Home() {
           </div>
         </section>
         <div className="prompt">
-          <p className="homeDetails">A Full-Stack developer with a love for technology that makes life simpler.</p>
+          <p className="homeDetails">
+            A Full-Stack developer with a passion for technology that makes life
+            simpler.
+          </p>
           <IconButton className="homeDetails">
-            <Link href="https://www.linkedin.com/in/noahatkinson/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/noahatkinson/"
+              target="_blank"
+            >
               <LinkedInIcon className="iconButton" />
             </Link>
           </IconButton>
@@ -31,7 +37,7 @@ function Home() {
               <EmailIcon />
             </Link>
           </IconButton>
-          
+
           <IconButton className="homeDetails">
             <Link href="https://github.com/NoahJpg" target="_blank">
               <GithubIcon />
@@ -39,7 +45,7 @@ function Home() {
           </IconButton>
         </div>
       </div>
-{/* 
+      {/* 
       <div className="aboutMeContent">
         <section className="aboutSection">
           <h2>About Me</h2>
@@ -54,14 +60,12 @@ function Home() {
       <div className="skills" id="skills">
         <h1> Skills</h1>
         <div className="cardContainer">
-
           <Card className="card">
             <CardContent>
               <Typography variant="h5" component="h2">
                 Front-End:
               </Typography>
-              <Typography color="textSecondary" gutterBottom>
-              </Typography>
+              <Typography color="textSecondary" gutterBottom></Typography>
               <Links category="front-end" />
             </CardContent>
           </Card>
@@ -72,7 +76,7 @@ function Home() {
                 Back-End:
               </Typography>
               <Typography color="textSecondary" gutterBottom>
-              APIs
+                APIs
               </Typography>
               <Links category="back-end" />
             </CardContent>
@@ -83,8 +87,7 @@ function Home() {
               <Typography variant="h5" component="h2">
                 Languages:
               </Typography>
-              <Typography color="textSecondary" gutterBottom>
-              </Typography>
+              <Typography color="textSecondary" gutterBottom></Typography>
               <Links category="language" />
             </CardContent>
           </Card>
@@ -94,12 +97,10 @@ function Home() {
               <Typography variant="h5" component="h2">
                 Tools:
               </Typography>
-              <Typography color="textSecondary" gutterBottom>
-              </Typography>
+              <Typography color="textSecondary" gutterBottom></Typography>
               <Links category="tool" />
             </CardContent>
           </Card>
-
         </div>
       </div>
     </div>
