@@ -24,12 +24,25 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Seattle, WA</h4>
           <p>
             {" "}
-            - Work on developing AI Integration for the React Native Application
+            - A do-it-all startup role implementing UX designs, troubleshooting
+            backend services, and resolving client issues.
           </p>
-          <p> - Follow UI/UX team to implement their designs into the app</p>
           <p>
-            - Self direct, test app, and brainstorm ways to improve
-            user/business experience{" "}
+            {" "}
+            - Refactored prototype code, thereby reducing load times by 95% and
+            decreasing crashes by 60%.
+          </p>
+          <p>
+            - Led QA efforts to isolate and address issues, streamlining process
+            efficiency and issue tracking via Notion.
+          </p>
+          <p>
+            - Boosted feature set for the business side of the app, resulting in
+            a 110% increase in usage.
+          </p>
+          <p>
+            - Implemented streamlined authentication, increasing login success
+            rates.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -45,23 +58,8 @@ function Experience() {
             Remote / Seattle, WA
           </h4>
           <p>
-            {" "}
-            - Over 800 hours (27 weeks) of Front End/Back End web development.{" "}
-          </p>
-          <p>
-            {" "}
-            - Developed over 60 useful applications with C#/.Net, SQL,
-            Javascript, React, and various tools.{" "}
-          </p>
-          <p>
-            {" "}
-            - Cultivated communication and team skills through group projects
-            and daily pair programming.{" "}
-          </p>
-          <p>
-            {" "}
-            - Weekly code reviews, test driven development, implementing best
-            practices.{" "}
+            - Learned engineering fundamentals, pair programming, group
+            projects, best practices, TDD, code reviews.
           </p>
         </VerticalTimelineElement>
 
@@ -99,23 +97,19 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">Nocatee, FL</h4>
           <p>
             {" "}
-            - Lead studios in high-level productions with multiple actors and
-            crew.{" "}
+            - Collaborated with developers to create an advanced AFL-based stock
+            trading algorithm.{" "}
           </p>
           <p>
             {" "}
-            - Consulted with various brands to achieve the desired vision for
-            launch of a new product.{" "}
+            - Managed client relations to successfully realize visions for new
+            product launches, including solo-directing a 3-camera live webinar
+            that generated over $1 million in revenue.{" "}
           </p>
           <p>
             {" "}
-            - Worked with developers to create an algorithmic stock trading
-            system using AmiBroker Formula Language.{" "}
-          </p>
-          <p>
-            {" "}
-            - Managed and monitored social media accounts, implemented operation
-            changes to increase CTR.{" "}
+            - Directed studio productions, routinely completing projects ahead
+            of schedule.{" "}
           </p>
         </VerticalTimelineElement>
 
@@ -133,19 +127,19 @@ function Experience() {
           </h4>
           <p>
             {" "}
-            - Edited and organized data engineering training videos for the
-            learning platform.{" "}
+            - Used meticulous editing and structured hundreds of data
+            engineering videos for a premium training platform.{" "}
           </p>
           <p>
             {" "}
-            - Communicated with Fortune 500 leaders to manage their team’s
-            WordPress accounts.{" "}
+            - Maintained Fortune 500 customer accounts on WordPress, ensuring
+            satisfaction and account retention.{" "}
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2017"
+          date="2016 - 2017"
           iconStyle={{ background: "#4e51b8", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -155,7 +149,12 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Orange Park, FL
           </h4>
-          <p> - Studied Computers and Information Technology </p>
+          <p>
+            {" "}
+            - Studied computer systems and network architectures with hands-on
+            experience in hardware, circuitry, and foundational software
+            development.
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

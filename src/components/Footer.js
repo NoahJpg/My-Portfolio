@@ -12,7 +12,7 @@ function Footer() {
       <div className="socialMedia" id="socialMedia">
         <IconButton>
           <Link
-            href="https://www.linkedin.com/in/noahatkinson/"
+            href="https://www.linkedin.com/in/noahdev/"
             target="_blank"
           >
             <LinkedInIcon />
@@ -33,7 +33,7 @@ function Footer() {
 
         <IconButton className="downloadButton">
           <p className="resumeText">Download Resume</p>
-          <Link href="/NoahAtkinsonResume.pdf" download>
+          <Link href="/NoahResume10-23.pdf" download>
             <CloudDownloadIcon />
           </Link>
         </IconButton>

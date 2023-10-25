@@ -96,6 +96,24 @@ const links = [
     category: "front-end",
   },
   {
+    url: "https://reactnative.dev/",
+    imgSrc: "https://reactnative.dev/img/header_logo.svg",
+    alt: "react-native",
+    category: "front-end",
+  },
+  {
+    url: "https://aws.amazon.com/amplify/",
+    imgSrc: "https://docs.amplify.aws/assets/logo-dark.svg",
+    alt: "aws-amplify",
+    category: "back-end",
+  },
+  {
+    url: "https://www.figma.com/",
+    imgSrc: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+    alt: "figma",
+    category: "tool",
+  },
+  {
     url: "https://postman.com",
     imgSrc: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
     alt: "postman",
